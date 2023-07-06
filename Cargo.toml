@@ -1,0 +1,17 @@
+[package]
+name = "redisfeeder"
+description = "Read lines from stdin and send them to redis."
+version = "0.1.0"
+edition = "2021"
+
+authors = ["Markus Kasten <github@markuskasten.eu>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.71"
+clap = { version = "4.3.11", features = ["derive"] }
+env_logger = "0.10.0"
+log = "0.4.19"
+redis = "0.23.0"
+ring-channel = "0.11.0"
