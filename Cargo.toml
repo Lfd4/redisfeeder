@@ -13,5 +13,5 @@ anyhow = "1.0.72"
 clap = { version = "4.3.21", features = ["derive"] }
 env_logger = "0.10.0"
 log = "0.4.20"
-redis = "0.23.2"
+redis = "0.23.3"
 ring-channel = "0.11.0"
