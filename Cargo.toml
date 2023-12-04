@@ -10,7 +10,7 @@ authors = ["Markus Kasten <github@markuskasten.eu>"]
 
 [dependencies]
 anyhow = "1.0.72"
-clap = { version = "4.4.7", features = ["derive"] }
+clap = { version = "4.4.10", features = ["derive"] }
 env_logger = "0.10.0"
 log = "0.4.20"
 redis = "0.23.4"
